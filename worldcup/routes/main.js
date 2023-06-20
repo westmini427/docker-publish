@@ -29,7 +29,7 @@ app.get('/worldcup', (req, res) => {
 				console.log(result);
 				res.writeHead(200, {'Content-Type':'text/html;charset=utf-8'});
 				var template = `
-					<table boarder="1" margin:auto; text-align:center;>
+					<table border="1" margin:auto; text-align:center;>
 					<tr>
 						<th> No </th>
 						<th> Nation </th>
